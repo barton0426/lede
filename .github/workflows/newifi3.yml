@@ -155,8 +155,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan-go=y
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_obfs=y
           # CONFIG_PACKAGE_luci-app-dnspod=y
           # CONFIG_PACKAGE_luci-app-openvpn-server=y
@@ -177,7 +175,6 @@ jobs:
           # CONFIG_PACKAGE_luci-app-webadmin=y
           # CONFIG_PACKAGE_luci-app-wireguard=y
           # CONFIG_PACKAGE_luci-app-wrtbwmon=y
-          CONFIG_PACKAGE_luci-app-syncdial=y
           CONFIG_PACKAGE_luci-app-uhttpd=y
           EOF
 
