@@ -9,7 +9,7 @@ name: JDY-CI
 
 on:
   schedule:
-    - cron: 0 14 */7 * *
+    - cron: 0 14 */31 * *
   push:
     branches: 
       - master
