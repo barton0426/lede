@@ -154,8 +154,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-minidlna=y
           CONFIG_PACKAGE_luci-app-mjpg-streamer=y
           CONFIG_PACKAGE_luci-app-ssr-plus=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_obfs=y
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_obfs=y
           CONFIG_PACKAGE_luci-app-dnspod=y
           CONFIG_PACKAGE_luci-app-openvpn-server=y
           # CONFIG_PACKAGE_luci-app-vlmcsd is not set
@@ -169,8 +169,8 @@ jobs:
           # CONFIG_PACKAGE_luci-app-openvpn=y
           # CONFIG_PACKAGE_luci-app-qbittorrent=y
           # CONFIG_PACKAGE_luci-app-ttyd=y
-          CONFIG_PACKAGE_luci-app-v2ray-server=y
-          CONFIG_PACKAGE_luci-app-zerotier=y
+          # CONFIG_PACKAGE_luci-app-v2ray-server=y
+          # CONFIG_PACKAGE_luci-app-zerotier=y
           CONFIG_PACKAGE_luci-app-passwall=y
           # CONFIG_PACKAGE_luci-app-webadmin=y
           # CONFIG_PACKAGE_luci-app-wireguard=y
@@ -186,7 +186,7 @@ jobs:
           # 常用软件包:
           cat >> .config <<EOF
           CONFIG_PACKAGE_wpad=y
-          CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
+          # CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
           CONFIG_PACKAGE_k3wifi=y
           # CONFIG_PACKAGE_brcmfmac-firmware-4366c0-pcie is not set
           # CONFIG_PACKAGE_curl=y
