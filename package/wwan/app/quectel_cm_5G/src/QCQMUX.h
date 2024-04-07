@@ -399,25 +399,25 @@ typedef struct _QCTLV_PKT_STATISTICS
 //#ifdef QC_IP_MODE
 
 /*
-    â€?Bit 0 â€?Profile identifier
-    â€?Bit 1 â€?Profile name
-    â€?Bit 2 â€?PDP type
-    â€?Bit 3 â€?APN name
-    â€?Bit 4 â€?DNS address
-    â€?Bit 5 â€?UMTS/GPRS granted QoS
-    â€?Bit 6 â€?Username
-    â€?Bit 7 â€?Authentication Protocol
-    â€?Bit 8 â€?IP address
-    â€?Bit 9 â€?Gateway information (address and subnet mask)
-    â€?Bit 10 â€?PCSCF address using a PCO flag
-    â€?Bit 11 â€?PCSCF server address list
-    â€?Bit 12 â€?PCSCF domain name list
-    â€?Bit 13 â€?MTU
-    â€?Bit 14 â€?Domain name list
-    â€?Bit 15 â€?IP family
-    â€?Bit 16 â€?IM_CM flag
-    â€?Bit 17 â€?Technology name
-    â€?Bit 18 â€?Operator reserved PCO
+    ï¿½?Bit 0 ï¿½?Profile identifier
+    ï¿½?Bit 1 ï¿½?Profile name
+    ï¿½?Bit 2 ï¿½?PDP type
+    ï¿½?Bit 3 ï¿½?APN name
+    ï¿½?Bit 4 ï¿½?DNS address
+    ï¿½?Bit 5 ï¿½?UMTS/GPRS granted QoS
+    ï¿½?Bit 6 ï¿½?Username
+    ï¿½?Bit 7 ï¿½?Authentication Protocol
+    ï¿½?Bit 8 ï¿½?IP address
+    ï¿½?Bit 9 ï¿½?Gateway information (address and subnet mask)
+    ï¿½?Bit 10 ï¿½?PCSCF address using a PCO flag
+    ï¿½?Bit 11 ï¿½?PCSCF server address list
+    ï¿½?Bit 12 ï¿½?PCSCF domain name list
+    ï¿½?Bit 13 ï¿½?MTU
+    ï¿½?Bit 14 ï¿½?Domain name list
+    ï¿½?Bit 15 ï¿½?IP family
+    ï¿½?Bit 16 ï¿½?IM_CM flag
+    ï¿½?Bit 17 ï¿½?Technology name
+    ï¿½?Bit 18 ï¿½?Operator reserved PCO
 */
 #define QMIWDS_GET_RUNTIME_SETTINGS_MASK_IPV4DNS_ADDR       (1 << 4)
 #define QMIWDS_GET_RUNTIME_SETTINGS_MASK_IPV4_ADDR          (1 << 8)
